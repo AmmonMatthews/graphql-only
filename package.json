@@ -1,0 +1,35 @@
+{
+  "name": "graphql-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.2.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.5"
+  },
+  "scripts": {
+    "server": "nodemon --exec babel-node index.js",
+    "start": "node --exec bable-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmmonMatthews/graphql-only.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmmonMatthews/graphql-only/issues"
+  },
+  "homepage": "https://github.com/AmmonMatthews/graphql-only#readme"
+}
